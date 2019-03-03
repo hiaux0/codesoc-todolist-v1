@@ -29,12 +29,16 @@ ul li {
   border-color: black;
   /* 80% means, that we always want to be 80% the width of the parent element. */
   width: 80%;
+  font-size: 14px;
 }
 
 /* Nested Tags Hover */
 /* Note, there is no space in `li:hover`. */
 ul#todo-list li:hover {
   background: whitesmoke;
+  animation-name: increaseTextSize; 
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
 }
 
 /*************/
@@ -50,4 +54,14 @@ ul#done-list {
 ul#done-list li {
   text-decoration: line-through;
   color: lightgray;
+}
+
+/* Animation logic */
+@keyframes increaseTextSize {
+  from {
+    font-size: 14px;
+  }
+  to {
+    font-size: 15px;
+  }
 }
