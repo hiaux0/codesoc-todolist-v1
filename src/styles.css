@@ -1,6 +1,7 @@
 
 
 /* Simple Tag Selector */
+/* Just write the name of the tag, to style it. */
 ul {
   /* Give a visual boundary */
   /* border: border-width border-style border-color; */
@@ -9,7 +10,8 @@ ul {
   width: 400px;
 }
 
-/* Nested Tags Selector*/
+/* Nested Tags Selector */
+/* Note the space between ul and li. */
 ul li {
   /* Give color to the list item */
   color: green;
@@ -25,7 +27,7 @@ ul li {
 }
 
 /* Nested Tags Hover */
-/* Note, there is no space in li:hover */
+/* Note, there is no space in li:hover. */
 ul li:hover {
   background: whitesmoke;
 }
