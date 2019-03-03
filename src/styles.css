@@ -18,6 +18,8 @@ ul li {
   /* Based on the CSS box-model, add margins. */
   /* https://www.w3schools.com/Css/css_boxmodel.asp */
   margin: 20px;
+  /* Based on the CSS box-model, add paddings (to give the list some 'air') */
+  padding: 5px;
   /* Control only the bottom part of the border. */
   border-bottom: 1px solid;
   /* Control the color of the border. If we remove this propery, the border color will be green (see the value of the color property) */
