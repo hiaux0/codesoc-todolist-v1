@@ -33,7 +33,7 @@ ul li {
 
 /* Nested Tags Hover */
 /* Note, there is no space in `li:hover`. */
-ul li:hover {
+ul#todo-list li:hover {
   background: whitesmoke;
 }
 
@@ -45,4 +45,9 @@ ul li:hover {
 /* Note, there is no space in `ul#done-list` */
 ul#done-list {
   color: gray;
+}
+
+ul#done-list li {
+  text-decoration: line-through;
+  color: lightgray;
 }
