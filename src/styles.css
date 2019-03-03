@@ -1,5 +1,6 @@
 
 
+/* Simple Tag Selector */
 ul {
   /* Give a visual boundary */
   /* border: border-width border-style border-color; */
@@ -8,6 +9,7 @@ ul {
   width: 400px;
 }
 
+/* Nested Tags Selector*/
 ul li {
   /* Give color to the list item */
   color: green;
