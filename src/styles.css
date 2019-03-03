@@ -34,7 +34,7 @@ ul li {
 
 /* Nested Tags Hover */
 /* Note, there is no space in `li:hover`. */
-ul#todo-list li:hover {
+ul.todo-list li:hover {
   background: whitesmoke;
   animation-name: increaseTextSize; 
   animation-duration: 0.5s;
@@ -47,11 +47,11 @@ ul#todo-list li:hover {
 
 /* Id Attribute Selector */
 /* Note, there is no space in `ul#done-list` */
-ul#done-list {
+ul.done-list {
   color: gray;
 }
 
-ul#done-list li {
+ul.done-list li {
   text-decoration: line-through;
   color: lightgray;
 }
