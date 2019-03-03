@@ -1,9 +1,23 @@
 
 
 ul {
+  /* Give a visual boundary */
+  /* border: border-width border-style border-color; */
   border: 1px solid black;
+  /* Control the width */
+  width: 400px;
 }
 
 ul li {
+  /* Give color to the list item */
   color: green;
+  /* Based on the CSS box-model, add margins. */
+  /* https://www.w3schools.com/Css/css_boxmodel.asp */
+  margin: 20px;
+  /* Control only the bottom part of the border. */
+  border-bottom: 1px solid;
+  /* Control the color of the border. If we remove this propery, the border color will be green (see the value of the color property) */
+  border-color: black;
+  /* 80% means, that we always want to be 80% the width of the parent element. */
+  width: 80%;
 }
